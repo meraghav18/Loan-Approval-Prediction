@@ -70,6 +70,7 @@ bank_asset_value = st.number_input(
     value=0
 )
 
+
 # ---------------------- Prediction ----------------------
 
 if st.button("Predict Loan Status"):
@@ -88,11 +89,14 @@ if st.button("Predict Loan Status"):
 
     ]], columns=feature_names)
 
+
     data = scaler.transform(data)
 
     prediction = model.predict(data)
 
-    if prediction[0] == 1:
+   
+
+    if prediction[0] == 0:
         st.success("✅ Loan Approved")
     else:
         st.error("❌ Loan Rejected")
