@@ -8,13 +8,7 @@ This project predicts whether a loan application will be **Approved** or **Rejec
 
 ## 🚀 Live Demo
 
-🔗 Streamlit App: **(Paste your deployed app link here)**
-
----
-
-## 📂 GitHub Repository
-
-🔗 **(Paste your GitHub repository link here)**
+🔗 Streamlit App:(https://loanpredictioner.streamlit.app/)
 
 ---
 
